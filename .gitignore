@@ -4,6 +4,10 @@
 .env.local
 .env.*.local
 
+# Category data cache (optional - uncomment if you don't want to commit the cache)
+# data/amazon_categories.json
+# data/amazon_categories.csv
+
 # Python
 __pycache__/
 *.py[cod]

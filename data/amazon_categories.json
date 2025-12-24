@@ -1,0 +1,836 @@
+{
+  "last_updated": "2025-12-20T20:36:17.278255",
+  "total_categories": 26,
+  "categories": [
+    {
+      "category_id": 8757190011,
+      "name": {
+        "catId": 8757190011,
+        "children": [
+          8757245011
+        ],
+        "contextFreeName": "Fish Finders & Marine Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Fish Finders & Marine Electronics",
+        "parent": 8728816011,
+        "productCount": 0
+      },
+      "parent_id": 8728816011,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 1,
+      "children_ids": [
+        8757245011
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 6062903011,
+      "name": {
+        "catId": 6062903011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Best for Gadget Fans",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Best for Gadget Fans",
+        "parent": 119971623011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 16285951,
+      "name": {
+        "catId": 16285951,
+        "children": null,
+        "contextFreeName": "Personal Electronics Service Plans",
+        "domainId": 1,
+        "highestRank": -1,
+        "isBrowseNode": true,
+        "lowestRank": -1,
+        "name": "Personal Electronics",
+        "parent": 16285931,
+        "productCount": 12,
+        "relatedCategories": [
+          16285951
+        ],
+        "topBrands": [
+          "ノーブランド品",
+          "fisher-price",
+          "keepglad",
+          "laorici",
+          "ricoku"
+        ],
+        "topSellersAny": [
+          "A17PPXWG1DSTN5"
+        ]
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6062892011,
+      "name": {
+        "catId": 6062892011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Car Electronics & GPS",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Car Electronics & GPS",
+        "parent": 119971589011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 13707,
+      "name": {
+        "avgBuyBox": 9595,
+        "avgBuyBox365": 9527,
+        "avgBuyBox90": 9625,
+        "avgBuyBoxDeviation": 53,
+        "avgDeltaPercent30Amazon": -0.11794647,
+        "avgDeltaPercent30BuyBox": -0.39183852,
+        "avgDeltaPercent90Amazon": 0.037823606,
+        "avgDeltaPercent90BuyBox": -0.46379992,
+        "avgOfferCountNew": 5.022081,
+        "avgOfferCountUsed": 3.9212213,
+        "avgRating": 43,
+        "avgReviewCount": 24,
+        "brandCount": 433,
+        "catId": 13707,
+        "children": [
+          13725,
+          107183011,
+          13718,
+          227548,
+          13723,
+          13727
+        ],
+        "contextFreeName": "Electronics",
+        "domainId": 1,
+        "highestRank": 13326248,
+        "isBrowseNode": true,
+        "isFBAPercent": 90.18586,
+        "lowestRank": 11206,
+        "name": "Electronics",
+        "parent": 227544,
+        "productCount": 73266,
+        "sellerCount": 3768,
+        "soldByAmazonPercent": 83.67311,
+        "topBrands": [
+          "springer",
+          "forgotten books",
+          "lap lambert academic publishing",
+          "kessinger publishing",
+          "crc press"
+        ],
+        "topSellers": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A2LE0JL3B4W7AP",
+          "A1KIF2Y9A1PQYE",
+          "A30UH7RV1UCIV3"
+        ],
+        "topSellersAny": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A7SCUX73K7TOJ",
+          "A30UH7RV1UCIV3",
+          "A2LV0SRZBF8L1P"
+        ]
+      },
+      "parent_id": 227544,
+      "domain": 1,
+      "product_count": 73266,
+      "children_count": 6,
+      "children_ids": [
+        13725,
+        107183011,
+        13718,
+        227548,
+        13723,
+        13727
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 13156931,
+      "name": {
+        "catId": 13156931,
+        "children": null,
+        "contextFreeName": "Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics",
+        "parent": 13156901,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 120910275011,
+      "name": {
+        "catId": 120910275011,
+        "children": null,
+        "contextFreeName": "Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics",
+        "parent": 119971525011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6062881011,
+      "name": {
+        "catId": 6062881011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Camera Pro",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Camera Pro",
+        "parent": 119971615011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 16285931,
+      "name": {
+        "catId": 16285931,
+        "children": [
+          16285961,
+          16285951,
+          16285941
+        ],
+        "contextFreeName": "Electronics Service Plans",
+        "domainId": 1,
+        "highestRank": -1,
+        "isBrowseNode": true,
+        "lowestRank": -1,
+        "name": "Electronics",
+        "parent": 16285901,
+        "productCount": 206,
+        "topBrands": [
+          "smartguard",
+          "canopy",
+          "n.e.w. customer service companies, inc.",
+          "squaretrade",
+          "ノーブランド品"
+        ],
+        "topSellers": [
+          "AQNACJEM8PUJ1"
+        ],
+        "topSellersAny": [
+          "A17PPXWG1DSTN5",
+          "AQNACJEM8PUJ1"
+        ]
+      },
+      "parent_id": 16285901,
+      "domain": 1,
+      "product_count": 206,
+      "children_count": 3,
+      "children_ids": [
+        16285961,
+        16285951,
+        16285941
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 3220,
+      "name": {
+        "avgBuyBox": 1640,
+        "avgBuyBox365": 1630,
+        "avgBuyBox90": 1646,
+        "avgBuyBoxDeviation": 20,
+        "avgDeltaPercent30Amazon": -0.66267943,
+        "avgDeltaPercent30BuyBox": -1.0681819,
+        "avgDeltaPercent90Amazon": -0.15430622,
+        "avgDeltaPercent90BuyBox": -0.2942584,
+        "avgOfferCountNew": 2.9442165,
+        "avgOfferCountUsed": 5.8446217,
+        "avgRating": 43,
+        "avgReviewCount": 87,
+        "brandCount": 193,
+        "catId": 3220,
+        "children": null,
+        "contextFreeName": "Children's Electricity Books",
+        "domainId": 1,
+        "highestRank": 13316418,
+        "isBrowseNode": true,
+        "isFBAPercent": 84.496124,
+        "lowestRank": 15,
+        "name": "Electricity & Electronics",
+        "parent": 3207,
+        "productCount": 3976,
+        "relatedCategories": [
+          3220,
+          3250,
+          155964011,
+          16244711,
+          3283
+        ],
+        "sellerCount": 744,
+        "soldByAmazonPercent": 85.06973,
+        "topBrands": [
+          "majosta",
+          "cherry lake publishing",
+          "powerkids press",
+          "capstone press",
+          "gareth stevens publishing"
+        ],
+        "topSellers": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A1KIF2Y9A1PQYE",
+          "A6D8GZQLZZGO9",
+          "A1KY5HRJRH6YF1"
+        ],
+        "topSellersAny": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "ANKJ1HIJYFVVM",
+          "A2QVWT0ESGUXPH",
+          "AFJSFHKSHU1G7"
+        ]
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 13718,
+      "name": {
+        "avgBuyBox": 9830,
+        "avgBuyBox365": 9836,
+        "avgBuyBox90": 9940,
+        "avgDeltaPercent30Amazon": 0.484714,
+        "avgDeltaPercent30BuyBox": 0.43392506,
+        "avgDeltaPercent90Amazon": 1.0271204,
+        "avgDeltaPercent90BuyBox": 0.55966467,
+        "avgOfferCountNew": 4.7151365,
+        "avgOfferCountUsed": 3.9387636,
+        "avgRating": 42,
+        "avgReviewCount": 25,
+        "brandCount": 89,
+        "catId": 13718,
+        "children": null,
+        "contextFreeName": "Microelectronics",
+        "domainId": 1,
+        "highestRank": 13293346,
+        "isBrowseNode": true,
+        "isFBAPercent": 90.44259,
+        "lowestRank": 5003,
+        "name": "Microelectronics",
+        "parent": 13707,
+        "productCount": 7387,
+        "relatedCategories": [
+          13718,
+          157705011,
+          713557011,
+          107178011
+        ],
+        "sellerCount": 1275,
+        "soldByAmazonPercent": 85.98458,
+        "topBrands": [
+          "springer",
+          "crc press",
+          "newnes",
+          "academic press",
+          "majosta"
+        ],
+        "topSellers": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A1KIF2Y9A1PQYE",
+          "A30UH7RV1UCIV3",
+          "A1I3C55ZI5F3A9"
+        ],
+        "topSellersAny": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A7SCUX73K7TOJ",
+          "A30UH7RV1UCIV3",
+          "A3IHWHW38Z0N1B"
+        ]
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 560798,
+      "name": {
+        "catId": 560798,
+        "children": [
+          560800
+        ],
+        "contextFreeName": "Electronics & Photo",
+        "domainId": 1,
+        "highestRank": -1,
+        "isBrowseNode": false,
+        "lowestRank": 1,
+        "name": "Electronics & Photo",
+        "parent": 0,
+        "productCount": 0
+      },
+      "parent_id": 0,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 1,
+      "children_ids": [
+        560800
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 6062902011,
+      "name": {
+        "catId": 6062902011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Best for Travelers",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Best for Travelers",
+        "parent": 119971589011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 13723,
+      "name": {
+        "avgBuyBox": 10687,
+        "avgBuyBox365": 10731,
+        "avgBuyBox90": 10775,
+        "avgBuyBoxDeviation": 48,
+        "avgDeltaPercent30Amazon": 0.033333335,
+        "avgDeltaPercent30BuyBox": -0.63958335,
+        "avgDeltaPercent90Amazon": 0.95625,
+        "avgDeltaPercent90BuyBox": -0.20416667,
+        "avgOfferCountNew": 4.777151,
+        "avgOfferCountUsed": 4.084257,
+        "avgRating": 43,
+        "avgReviewCount": 15,
+        "brandCount": 48,
+        "catId": 13723,
+        "children": null,
+        "contextFreeName": "Optoelectronics",
+        "domainId": 1,
+        "highestRank": 13244033,
+        "isBrowseNode": true,
+        "isFBAPercent": 87.62626,
+        "lowestRank": 13697,
+        "name": "Optoelectronics",
+        "parent": 13707,
+        "productCount": 2458,
+        "relatedCategories": [
+          13723,
+          14589,
+          157713011,
+          713557011,
+          13725
+        ],
+        "sellerCount": 531,
+        "soldByAmazonPercent": 81.52327,
+        "topBrands": [
+          "springer",
+          "cambridge university press",
+          "artech house",
+          "majosta",
+          "crc press"
+        ],
+        "topSellers": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A30UH7RV1UCIV3",
+          "AP3VA1GJZM3EQ",
+          "A1KIF2Y9A1PQYE"
+        ],
+        "topSellersAny": [
+          "ATVPDKIKX0DER",
+          "A3T7DQBB0CKEM6",
+          "A7SCUX73K7TOJ",
+          "A30UH7RV1UCIV3",
+          "A3IHWHW38Z0N1B"
+        ]
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 7238428011,
+      "name": {
+        "catId": 7238428011,
+        "children": null,
+        "contextFreeName": "Back-to-School Basics in Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Back-to-School Basics in Electronics",
+        "parent": 119971655011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6958391011,
+      "name": {
+        "catId": 6958391011,
+        "children": null,
+        "contextFreeName": "Back to School-Electronics On the Go",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Back to School-Electronics On the Go",
+        "parent": 119971613011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6062899011,
+      "name": {
+        "catId": 6062899011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Best for Mom",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Best for Mom",
+        "parent": 119971591011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6062883011,
+      "name": {
+        "catId": 6062883011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Computer Accessories",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Computer Accessories",
+        "parent": 119971622011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 347125011,
+      "name": {
+        "catId": 347125011,
+        "children": [
+          347148011,
+          347150011,
+          347146011,
+          347149011,
+          347144011,
+          347142011
+        ],
+        "contextFreeName": "Electronics",
+        "domainId": 1,
+        "highestRank": -1,
+        "isBrowseNode": false,
+        "lowestRank": -1,
+        "name": "Electronics",
+        "parent": 3960541,
+        "productCount": 0
+      },
+      "parent_id": 3960541,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 6,
+      "children_ids": [
+        347148011,
+        347150011,
+        347146011,
+        347149011,
+        347144011,
+        347142011
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 13678451,
+      "name": {
+        "catId": 13678451,
+        "children": null,
+        "contextFreeName": "Race Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Race Electronics",
+        "parent": 13678291,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 2324196011,
+      "name": {
+        "avgBuyBox": 10528,
+        "avgBuyBox365": 10427,
+        "avgBuyBox90": 10483,
+        "avgDeltaPercent30Amazon": 0.11111111,
+        "avgDeltaPercent30BuyBox": -1.5,
+        "avgDeltaPercent90Amazon": 0.22222222,
+        "avgDeltaPercent90BuyBox": -1.0555556,
+        "avgOfferCountNew": 3.8636363,
+        "avgOfferCountUsed": 2.9,
+        "avgRating": 44,
+        "avgReviewCount": 195,
+        "brandCount": 19,
+        "catId": 2324196011,
+        "children": [
+          2324203011,
+          2324200011,
+          2324199011,
+          2324201011
+        ],
+        "contextFreeName": "Aviation Electronics",
+        "domainId": 1,
+        "highestRank": 11950383,
+        "isBrowseNode": true,
+        "isFBAPercent": 75.0,
+        "lowestRank": 5987,
+        "name": "Aviation Electronics",
+        "parent": 3248684011,
+        "productCount": 13692,
+        "sellerCount": 47,
+        "soldByAmazonPercent": 27.272728,
+        "topBrands": [
+          "r and r imports",
+          "asa",
+          "generic",
+          "checkmate aviation",
+          "faa charts"
+        ],
+        "topSellers": [
+          "A1H8IRXDMN6K0T",
+          "A3IHZ5U56GDR3K",
+          "A36FY70EB89LMC",
+          "ATVPDKIKX0DER",
+          "A1BIOG2RXATT2X"
+        ],
+        "topSellersAny": [
+          "A1H8IRXDMN6K0T",
+          "A3IHZ5U56GDR3K",
+          "A36FY70EB89LMC",
+          "A1BIOG2RXATT2X",
+          "ATVPDKIKX0DER"
+        ]
+      },
+      "parent_id": 3248684011,
+      "domain": 1,
+      "product_count": 13692,
+      "children_count": 4,
+      "children_ids": [
+        2324203011,
+        2324200011,
+        2324199011,
+        2324201011
+      ],
+      "depth": 0
+    },
+    {
+      "category_id": 6514380011,
+      "name": {
+        "catId": 6514380011,
+        "children": null,
+        "contextFreeName": "Citi Offer: 10% Off Select Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Citi Offer: 10% Off Select Electronics",
+        "parent": 119971596011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 17895003011,
+      "name": {
+        "catId": 17895003011,
+        "children": null,
+        "contextFreeName": "Electronics & Wireless Outlet",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics & Wireless Outlet",
+        "parent": 119971662011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 8757229011,
+      "name": {
+        "catId": 8757229011,
+        "children": null,
+        "contextFreeName": "Ice Fishing Electronics",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Ice Fishing Electronics",
+        "parent": 8757188011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 6062888011,
+      "name": {
+        "catId": 6062888011,
+        "children": null,
+        "contextFreeName": "Electronics Gift List | Headphones",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift List | Headphones",
+        "parent": 119971617011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    },
+    {
+      "category_id": 16713792011,
+      "name": {
+        "catId": 16713792011,
+        "children": null,
+        "contextFreeName": "Electronics Gift Guide - Fun & Social",
+        "domainId": 1,
+        "highestRank": 0,
+        "isBrowseNode": false,
+        "lowestRank": 0,
+        "name": "Electronics Gift Guide - Fun & Social",
+        "parent": 119971760011,
+        "productCount": 0
+      },
+      "parent_id": null,
+      "domain": 1,
+      "product_count": 0,
+      "children_count": 0,
+      "children_ids": [],
+      "depth": 0
+    }
+  ]
+}
