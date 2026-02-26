@@ -1,0 +1,53 @@
+================================================================================
+AMAZON CATEGORY TREE STRUCTURE
+================================================================================
+Legend: 🌳 Root Category | 📦 Product Group | 📁 Sub-category
+
+├── [🌳 Root] Fish Finders & Marine Electronics (ID: 8757190011)
+
+├── [🌳 Root] Electronics Gift List | Best for Gadget Fans (ID: 6062903011)
+
+├── [🌳 Root] Electronics Gift List | Car Electronics & GPS (ID: 6062892011)
+
+├── [🌳 Root] Electronics (ID: 13707) | Products: 73,266
+│   ├── [📁 Sub] Microelectronics (ID: 13718) | Products: 7,387
+│   └── [📁 Sub] Optoelectronics (ID: 13723) | Products: 2,458
+
+├── [🌳 Root] Electronics (ID: 13156931)
+
+├── [🌳 Root] Electronics (ID: 120910275011)
+
+├── [🌳 Root] Electronics Gift List | Camera Pro (ID: 6062881011)
+
+├── [🌳 Root] Electronics (ID: 16285931) | Products: 206
+│   └── [📁 Sub] Personal Electronics (ID: 16285951) | Products: 12
+
+├── [🌳 Root] Electricity & Electronics (ID: 3220) | Products: 3,976
+
+├── [🌳 Root] Electronics & Photo (ID: 560798)
+
+├── [🌳 Root] Electronics Gift List | Best for Travelers (ID: 6062902011)
+
+├── [🌳 Root] Back-to-School Basics in Electronics (ID: 7238428011)
+
+├── [🌳 Root] Back to School-Electronics On the Go (ID: 6958391011)
+
+├── [🌳 Root] Electronics Gift List | Best for Mom (ID: 6062899011)
+
+├── [🌳 Root] Electronics Gift List | Computer Accessories (ID: 6062883011)
+
+├── [🌳 Root] Electronics (ID: 347125011)
+
+├── [🌳 Root] Race Electronics (ID: 13678451)
+
+├── [🌳 Root] Aviation Electronics (ID: 2324196011) | Products: 13,692
+
+├── [🌳 Root] Citi Offer: 10% Off Select Electronics (ID: 6514380011)
+
+├── [🌳 Root] Electronics & Wireless Outlet (ID: 17895003011)
+
+├── [🌳 Root] Ice Fishing Electronics (ID: 8757229011)
+
+├── [🌳 Root] Electronics Gift List | Headphones (ID: 6062888011)
+
+└── [🌳 Root] Electronics Gift Guide - Fun & Social (ID: 16713792011)

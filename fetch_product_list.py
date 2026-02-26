@@ -6,6 +6,7 @@ load_dotenv()
 
 API_KEY = os.getenv("KEEPA_API_KEY")
 CATEGORY_ID = 1055398 # Home & Kitchen
+CATEGORY_ID = 16285951 # Personal Electronics
 # Limit the number of ASINs to process (reduces unnecessary processing)
 MAX_ASINS_TO_PROCESS = 10
 

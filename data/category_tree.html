@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Category Tree</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .stats {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .stats h2 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .stat-item {
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            border-left: 4px solid #4CAF50;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .tree {
+            margin: 20px 0;
+        }
+        .node {
+            margin: 5px 0;
+            padding: 8px;
+            border-left: 3px solid #ddd;
+            background: #fafafa;
+        }
+        .node.root {
+            border-left-color: #4CAF50;
+            background: #e8f5e9;
+            font-weight: bold;
+        }
+        .node.group {
+            border-left-color: #2196F3;
+            background: #e3f2fd;
+        }
+        .node.sub {
+            border-left-color: #FF9800;
+            background: #fff3e0;
+        }
+        .node-name {
+            font-weight: 500;
+            color: #333;
+        }
+        .node-id {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .node-products {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .children {
+            margin-left: 30px;
+        }
+        .legend {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        .legend-root { background: #e8f5e9; border-left: 3px solid #4CAF50; }
+        .legend-group { background: #e3f2fd; border-left: 3px solid #2196F3; }
+        .legend-sub { background: #fff3e0; border-left: 3px solid #FF9800; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌳 Amazon Category Tree Structure</h1>
+        
+        <div class="stats">
+            <h2>📊 Statistics</h2>
+            <div class="stats-grid">
+
+                <div class="stat-item">
+                    <div class="stat-label">Total Categories</div>
+                    <div class="stat-value">26</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Root Categories</div>
+                    <div class="stat-value">23</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Product Groups</div>
+                    <div class="stat-value">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Sub-categories</div>
+                    <div class="stat-value">3</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Categories with Products</div>
+                    <div class="stat-value">7</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Total Products</div>
+                    <div class="stat-value">100,997</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Max Depth</div>
+                    <div class="stat-value">0</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <strong>Legend:</strong>
+            <span class="legend-item legend-root">🌳 Root Category</span>
+            <span class="legend-item legend-group">📦 Product Group</span>
+            <span class="legend-item legend-sub">📁 Sub-category</span>
+        </div>
+        
+        <div class="tree">
+            <h2>Category Tree</h2>
+<div class="node root"><span class="node-name">Fish Finders & Marine Electronics</span> <span class="node-id">(ID: 8757190011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Best for Gadget Fans</span> <span class="node-id">(ID: 6062903011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Car Electronics & GPS</span> <span class="node-id">(ID: 6062892011)</span></div><div class="node root"><span class="node-name">Electronics</span> <span class="node-id">(ID: 13707)</span> <span class="node-products">| Products: 73,266</span></div><div class="children"><div class="node sub"><span class="node-name">Microelectronics</span> <span class="node-id">(ID: 13718)</span> <span class="node-products">| Products: 7,387</span></div><div class="node sub"><span class="node-name">Optoelectronics</span> <span class="node-id">(ID: 13723)</span> <span class="node-products">| Products: 2,458</span></div></div><div class="node root"><span class="node-name">Electronics</span> <span class="node-id">(ID: 13156931)</span></div><div class="node root"><span class="node-name">Electronics</span> <span class="node-id">(ID: 120910275011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Camera Pro</span> <span class="node-id">(ID: 6062881011)</span></div><div class="node root"><span class="node-name">Electronics</span> <span class="node-id">(ID: 16285931)</span> <span class="node-products">| Products: 206</span></div><div class="children"><div class="node sub"><span class="node-name">Personal Electronics</span> <span class="node-id">(ID: 16285951)</span> <span class="node-products">| Products: 12</span></div></div><div class="node root"><span class="node-name">Electricity & Electronics</span> <span class="node-id">(ID: 3220)</span> <span class="node-products">| Products: 3,976</span></div><div class="node root"><span class="node-name">Electronics & Photo</span> <span class="node-id">(ID: 560798)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Best for Travelers</span> <span class="node-id">(ID: 6062902011)</span></div><div class="node root"><span class="node-name">Back-to-School Basics in Electronics</span> <span class="node-id">(ID: 7238428011)</span></div><div class="node root"><span class="node-name">Back to School-Electronics On the Go</span> <span class="node-id">(ID: 6958391011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Best for Mom</span> <span class="node-id">(ID: 6062899011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Computer Accessories</span> <span class="node-id">(ID: 6062883011)</span></div><div class="node root"><span class="node-name">Electronics</span> <span class="node-id">(ID: 347125011)</span></div><div class="node root"><span class="node-name">Race Electronics</span> <span class="node-id">(ID: 13678451)</span></div><div class="node root"><span class="node-name">Aviation Electronics</span> <span class="node-id">(ID: 2324196011)</span> <span class="node-products">| Products: 13,692</span></div><div class="node root"><span class="node-name">Citi Offer: 10% Off Select Electronics</span> <span class="node-id">(ID: 6514380011)</span></div><div class="node root"><span class="node-name">Electronics & Wireless Outlet</span> <span class="node-id">(ID: 17895003011)</span></div><div class="node root"><span class="node-name">Ice Fishing Electronics</span> <span class="node-id">(ID: 8757229011)</span></div><div class="node root"><span class="node-name">Electronics Gift List | Headphones</span> <span class="node-id">(ID: 6062888011)</span></div><div class="node root"><span class="node-name">Electronics Gift Guide - Fun & Social</span> <span class="node-id">(ID: 16713792011)</span></div>
+        </div>
+    </div>
+</body>
+</html>

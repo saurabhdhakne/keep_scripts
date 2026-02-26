@@ -267,42 +267,42 @@ Examples:
         print(f"\nCategory ID: {category_id}")
     else:
         # Interactive category selection
-        print("\n" + "=" * 60)
-        print("CATEGORY SELECTION")
-        print("=" * 60)
+    print("\n" + "=" * 60)
+    print("CATEGORY SELECTION")
+    print("=" * 60)
+    
+    try:
+        from category_utils import search_categories, get_category_by_id
         
-        try:
-            from category_utils import search_categories, get_category_by_id
+        # Search for categories
+        search_term = input("\nEnter category search term (e.g., 'Electronics'): ").strip()
+        if not search_term:
+            search_term = "Electronics"
+        
+        categories = search_categories(search_term)
+        
+        if not categories:
+            print(f"⚠️  No categories found for '{search_term}'")
+            category_id = int(input("Enter category ID manually: "))
+        else:
+            print(f"\nFound {len(categories)} categories:")
+            for i, cat in enumerate(categories[:10], 1):
+                print(f"  {i}. [{cat['category_id']}] {cat['name']}")
             
-            # Search for categories
-            search_term = input("\nEnter category search term (e.g., 'Electronics'): ").strip()
-            if not search_term:
-                search_term = "Electronics"
+            if len(categories) > 10:
+                print(f"  ... and {len(categories) - 10} more")
             
-            categories = search_categories(search_term)
+            choice = input(f"\nSelect category (1-{min(10, len(categories))}) or enter ID: ").strip()
             
-            if not categories:
-                print(f"⚠️  No categories found for '{search_term}'")
-                category_id = int(input("Enter category ID manually: "))
+            if choice.isdigit() and 1 <= int(choice) <= min(10, len(categories)):
+                category_id = categories[int(choice) - 1]['category_id']
             else:
-                print(f"\nFound {len(categories)} categories:")
-                for i, cat in enumerate(categories[:10], 1):
-                    print(f"  {i}. [{cat['category_id']}] {cat['name']}")
-                
-                if len(categories) > 10:
-                    print(f"  ... and {len(categories) - 10} more")
-                
-                choice = input(f"\nSelect category (1-{min(10, len(categories))}) or enter ID: ").strip()
-                
-                if choice.isdigit() and 1 <= int(choice) <= min(10, len(categories)):
-                    category_id = categories[int(choice) - 1]['category_id']
-                else:
-                    category_id = int(choice) if choice.isdigit() else categories[0]['category_id']
-        except Exception as e:
-            print(f"⚠️  Error loading categories: {e}")
-            category_id = int(input("Enter category ID: "))
-        
-        print(f"\nUsing category ID: {category_id}")
+                category_id = int(choice) if choice.isdigit() else categories[0]['category_id']
+    except Exception as e:
+        print(f"⚠️  Error loading categories: {e}")
+        category_id = int(input("Enter category ID: "))
+    
+    print(f"\nUsing category ID: {category_id}")
     
     # Apply filters
     print("\n" + "=" * 60)
@@ -351,13 +351,13 @@ Examples:
     
     # Save results
     output_file = args.output
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        
     result_data = {
         'total_asins': len(asins),
         'total_products_with_details': len(products) if products else 0,
-        'filters_applied': {
-            'category': category_id,
+                'filters_applied': {
+                    'category': category_id,
             'domain': args.domain,
             'price_min': args.price_min,
             'price_max': args.price_max,
@@ -368,7 +368,7 @@ Examples:
             'sellers_max': args.sellers_max,
             'keepa_stable': args.keepa_stable,
             'max_results': args.max_results
-        },
+                },
         'asins': asins
     }
     
@@ -377,13 +377,13 @@ Examples:
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result_data, f, indent=2, ensure_ascii=False)
-    
-    print(f"\n✅ Results saved to: {output_file}")
+        
+        print(f"\n✅ Results saved to: {output_file}")
     print(f"   - ASINs found: {len(asins)}")
     if products:
         print(f"   - Products with details: {len(products)}")
-    
-    # Display sample products
+        
+        # Display sample products
     if products:
         print("\n" + "=" * 60)
         print("SAMPLE PRODUCTS (First 5)")
@@ -392,11 +392,11 @@ Examples:
             print(f"\n{i}. ASIN: {product.get('asin', 'N/A')}")
             print(f"   Title: {product.get('title', 'N/A')[:60]}...")
             if 'buyBoxPrice' in product:
-                print(f"   Price: ${product.get('buyBoxPrice', 'N/A')}")
+            print(f"   Price: ${product.get('buyBoxPrice', 'N/A')}")
             if 'salesRank' in product:
-                print(f"   BSR: {product.get('salesRank', 'N/A')}")
+            print(f"   BSR: {product.get('salesRank', 'N/A')}")
             if 'numberOfSellers' in product:
-                print(f"   Sellers: {product.get('numberOfSellers', 'N/A')}")
+            print(f"   Sellers: {product.get('numberOfSellers', 'N/A')}")
     else:
         print("\n" + "=" * 60)
         print("SAMPLE ASINs (First 10)")

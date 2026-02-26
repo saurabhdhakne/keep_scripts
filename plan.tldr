@@ -122,9 +122,9 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 0,
-			"y": 0,
-			"z": 1,
+			"x": 65.60226623694527,
+			"y": 72.72496124347259,
+			"z": 0.5946014784986992,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -316,7 +316,7 @@
 			"selectedShapeIds": [
 				"shape:wq6whXKmQDPCT80Wt_QKP"
 			],
-			"hoveredShapeId": "shape:wq6whXKmQDPCT80Wt_QKP",
+			"hoveredShapeId": "shape:_HBHe-bT0snrsguStQIgo",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -435,6 +435,11 @@
 							"content": [
 								{
 									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
 									"text": "AI Engine"
 								}
 							]
@@ -447,6 +452,11 @@
 							"content": [
 								{
 									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
 									"text": "for analytics"
 								}
 							]
@@ -647,7 +657,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Keepa"
+									"text": "External"
 								}
 							]
 						},
@@ -996,12 +1006,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:color": "black",
-				"tldraw:horizontalAlign": "start",
-				"tldraw:font": "sans"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -1015,8 +1020,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1556,
-				"h": 737
+				"w": 1022,
+				"h": 511
 			},
 			"insets": [
 				false,
@@ -1031,7 +1036,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1,
+			"devicePixelRatio": 2,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],

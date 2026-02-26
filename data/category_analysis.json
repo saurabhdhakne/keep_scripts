@@ -1,0 +1,279 @@
+{
+  "statistics": {
+    "total_categories": 26,
+    "root_categories": 23,
+    "sub_categories": 3,
+    "product_groups": 0,
+    "categories_with_products": 7,
+    "total_products": 100997,
+    "max_depth": 0,
+    "category_types": {
+      "8757190011": "Root Category",
+      "6062903011": "Root Category",
+      "16285951": "Sub-category",
+      "6062892011": "Root Category",
+      "13707": "Root Category",
+      "13156931": "Root Category",
+      "120910275011": "Root Category",
+      "6062881011": "Root Category",
+      "16285931": "Root Category",
+      "3220": "Root Category",
+      "13718": "Sub-category",
+      "560798": "Root Category",
+      "6062902011": "Root Category",
+      "13723": "Sub-category",
+      "7238428011": "Root Category",
+      "6958391011": "Root Category",
+      "6062899011": "Root Category",
+      "6062883011": "Root Category",
+      "347125011": "Root Category",
+      "13678451": "Root Category",
+      "2324196011": "Root Category",
+      "6514380011": "Root Category",
+      "17895003011": "Root Category",
+      "8757229011": "Root Category",
+      "6062888011": "Root Category",
+      "16713792011": "Root Category"
+    }
+  },
+  "category_types": {
+    "8757190011": "Root Category",
+    "6062903011": "Root Category",
+    "16285951": "Sub-category",
+    "6062892011": "Root Category",
+    "13707": "Root Category",
+    "13156931": "Root Category",
+    "120910275011": "Root Category",
+    "6062881011": "Root Category",
+    "16285931": "Root Category",
+    "3220": "Root Category",
+    "13718": "Sub-category",
+    "560798": "Root Category",
+    "6062902011": "Root Category",
+    "13723": "Sub-category",
+    "7238428011": "Root Category",
+    "6958391011": "Root Category",
+    "6062899011": "Root Category",
+    "6062883011": "Root Category",
+    "347125011": "Root Category",
+    "13678451": "Root Category",
+    "2324196011": "Root Category",
+    "6514380011": "Root Category",
+    "17895003011": "Root Category",
+    "8757229011": "Root Category",
+    "6062888011": "Root Category",
+    "16713792011": "Root Category"
+  },
+  "tree_structure": [
+    {
+      "category_id": 8757190011,
+      "name": "Fish Finders & Marine Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062903011,
+      "name": "Electronics Gift List | Best for Gadget Fans",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062892011,
+      "name": "Electronics Gift List | Car Electronics & GPS",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 13707,
+      "name": "Electronics",
+      "product_count": 73266,
+      "depth": 0,
+      "is_browse_node": true,
+      "children": [
+        {
+          "category_id": 13718,
+          "name": "Microelectronics",
+          "product_count": 7387,
+          "depth": 1,
+          "is_browse_node": true,
+          "children": []
+        },
+        {
+          "category_id": 13723,
+          "name": "Optoelectronics",
+          "product_count": 2458,
+          "depth": 1,
+          "is_browse_node": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "category_id": 13156931,
+      "name": "Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 120910275011,
+      "name": "Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062881011,
+      "name": "Electronics Gift List | Camera Pro",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 16285931,
+      "name": "Electronics",
+      "product_count": 206,
+      "depth": 0,
+      "is_browse_node": true,
+      "children": [
+        {
+          "category_id": 16285951,
+          "name": "Personal Electronics",
+          "product_count": 12,
+          "depth": 1,
+          "is_browse_node": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "category_id": 3220,
+      "name": "Electricity & Electronics",
+      "product_count": 3976,
+      "depth": 0,
+      "is_browse_node": true,
+      "children": []
+    },
+    {
+      "category_id": 560798,
+      "name": "Electronics & Photo",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062902011,
+      "name": "Electronics Gift List | Best for Travelers",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 7238428011,
+      "name": "Back-to-School Basics in Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6958391011,
+      "name": "Back to School-Electronics On the Go",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062899011,
+      "name": "Electronics Gift List | Best for Mom",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062883011,
+      "name": "Electronics Gift List | Computer Accessories",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 347125011,
+      "name": "Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 13678451,
+      "name": "Race Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 2324196011,
+      "name": "Aviation Electronics",
+      "product_count": 13692,
+      "depth": 0,
+      "is_browse_node": true,
+      "children": []
+    },
+    {
+      "category_id": 6514380011,
+      "name": "Citi Offer: 10% Off Select Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 17895003011,
+      "name": "Electronics & Wireless Outlet",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 8757229011,
+      "name": "Ice Fishing Electronics",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 6062888011,
+      "name": "Electronics Gift List | Headphones",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    },
+    {
+      "category_id": 16713792011,
+      "name": "Electronics Gift Guide - Fun & Social",
+      "product_count": 0,
+      "depth": 0,
+      "is_browse_node": false,
+      "children": []
+    }
+  ]
+}
